@@ -2,7 +2,7 @@
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+  and (min-resolution: 192dpi) body{ 
 }
 .container1{
     width: 100%;
@@ -30,7 +30,7 @@
         width: 45%;
         text-align: center;
         color: white;
-        background-color: blue;
+        background-color: #23A6F0;
         display: flex;
         font-size: 20px;
         border-radius: 10px 10px 10px;
@@ -50,7 +50,7 @@
     width: 25%;
     text-align: center;
     color: white;
-    background-color: blue;
+    background-color: #23A6F0;
 }
 #btn2{
     border-radius: 20px;
@@ -81,7 +81,7 @@
     box-sizing: border-box;
     padding: 10px;
     box-shadow: 1px 1px 1px 1px;
-    background-color: blue;
+    background-color: #23A6F0;
 }
 .peace h2{
     font-weight: bold;
@@ -162,7 +162,7 @@ input{
 button{
     width: 40%;
     height: 25%;
-    background-color: royalblue;
+    background-color: #23A6F0;
     color: white;
 }
 .container7{
@@ -212,6 +212,7 @@ button{
 .final{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(153, 150, 150) ;
     font-size: 15;
 }
 .standard button{
@@ -233,4 +234,17 @@ input{
 }
 .image{
     height: 75%;
+}
+.consulting{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn6{
+    height: 45px;
+    width: 110px;
+    border-radius: 12px 0px 15px 12px;
 }
