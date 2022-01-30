@@ -209,3 +209,7 @@ button{
 .consulting{
     display: flex;
 }
+.final{
+    display: flex;
+    justify-content: space-between;
+}
