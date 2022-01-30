@@ -11,12 +11,20 @@
     padding-left: 120px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
 }
  .list li{
     list-style: none;
     display: inline;
     justify-content: space-between;
+}
+.btn{
+        height: 30px;
+        width: 35%;
+        text-align: center;
+        color: white;
+        background-color: blue;
+        display: flex;
 }
 .insurance{
     text-align: center;
