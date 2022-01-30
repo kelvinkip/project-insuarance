@@ -3,7 +3,8 @@
     background-image: url(cover.png);
     position: relative;
     padding-top: 80px;
-    padding-bottom: 80vh;
+    padding-bottom: 70vh;
+    background-repeat: no-repeat;
 }
 .brand{
     display: flex;
@@ -18,13 +19,14 @@
     display: inline;
     justify-content: space-between;
 }
-.btn{
+.btn3{
         height: 30px;
         width: 35%;
         text-align: center;
         color: white;
         background-color: blue;
         display: flex;
+        font-size: 20px;
 }
 .insurance{
     text-align: center;
@@ -194,6 +196,8 @@ button{
     padding-left: 180px;
     display: flex;
     width: 65%;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .book-app{
     display: flex;
@@ -201,4 +205,7 @@ button{
 #ls{
     display: flex;
     list-style: none;
+}
+.consulting{
+    display: flex;
 }
