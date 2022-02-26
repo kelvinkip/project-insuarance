@@ -1,0 +1,19 @@
+div {
+    background-color: rgb(45, 237, 237);
+    width: 200px;
+    min-height: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+    height: 400px;
+  }
+  .both {
+    width: 350px;
+  }
+  

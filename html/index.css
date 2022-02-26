@@ -1,0 +1,25 @@
+.one {
+  background-color: red;
+}
+.two {
+  background-color: orange;
+}
+.three {
+  background-color: yellow;
+}
+.four {
+  background-color: green;
+}
+.five {
+  background-color: blue;
+}
+.six {
+  background-color: indigo;
+}
+.seven {
+  background-color: violet;
+}
+div {
+  width: 200px;
+  height: 200px;
+}
