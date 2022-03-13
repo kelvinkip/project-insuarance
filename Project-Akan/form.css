@@ -1,0 +1,134 @@
+body{
+    background-color: grey;
+    }
+
+.form-raw{ 
+    background-color:black;
+    padding: 20px;
+    padding-left: 80px;
+    line-height: 5px;
+    margin-top: 50px;
+    height: 200px;
+    width: 1000px;
+    margin-left: 200px;
+          
+    }
+    .btn{
+      width: 20%;
+      background-color: blue;
+      color: white;
+      margin-left: 40px;
+      border-radius: 10px;
+      height: 20%}
+    
+      .form-control{
+        width: 30%;
+        background-color: transparent;
+        border-radius: 10px;
+        color: black;
+        height: 20%;
+      }
+    
+    .col-md-4{
+      font-size: 30px;
+      background-color:lightblue;
+      background-size: cover;
+      color:slateblue;
+    }
+    #display,#gender,input{
+        text-align: left;
+        }
+        label{
+        padding: 5px
+        }
+        .row{
+        font-family: 'Fugaz One', cursive; 
+          }
+          h2{
+           text-align: center;
+           font-size: 40px;  
+           text-shadow: 2px 2px 5px grey; 
+           color:black;
+          }
+          h1{
+              text-align: center;
+              text-decoration: underline;
+              font-weight: bold;
+        
+          }
+          #submit{
+            margin: 10px;
+            padding: 5px;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+        }
+        .input{
+            padding-left: 5px;
+        }
+        .jumbotron{
+            background-color:peachpuff;
+            box-shadow: 2px 2px 5px grey;
+            color:black;
+            font-family: 'Merriweather', serif;
+        }
+        .btn btn-success{
+            margin: auto;
+            margin-left: 100px;
+        }
+        #month{
+            width: 250px;
+            border-radius: 5px;
+        }
+        #year{
+            width: 250px;
+            border-radius: 5px;
+        }
+        #dob{
+            width: 250px;
+            border-radius: 5px;
+        }
+        .footer-area-bottom{
+            border:0px peachpuff;
+            background-color: #f1f1f1f1;
+            margin-bottom:20px;
+            padding-top: 10px;
+            color: blue;
+            font-size: 20px;
+            
+            margin-top: 90px;  
+        }
+     label{
+         color: black;
+        }
+        option{
+            color: black;
+        }
+        /* .form-group{
+            border: 2px solid black;
+            width: 350px;
+            margin-left: 350px;
+        } */
+        .container5{
+            margin-left: 550px;
+            border: 2px solid blue;
+            width: 700px;
+            text-align: center;
+            margin-top: 350px;
+            height: 40vh;
+            padding-top: 120px;
+            background-image: url("gender.jpg");
+            background-repeat: no-repeat;
+            object-fit: cover;
+        }
+        .steps{
+            font-size: 20px;
+            color: brown;
+        }
+        .btn3{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            width: 220px;
+            margin-left: 300px;
+            border-radius: 10px;
+        }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="row">
+   <div class="space"></div>
+
+
+<!--The user input form-->
+<div class="container5">
+<form id="form_data"  class="form-row">
+
+      <div class="form-group row">
+            <label class="label-control ">Enter your date of birth:</label>
+            <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br/>    
+      </div>                       
+ <br>
+        <div class="form-group row">
+            <label>Choose your gender:</label>
+            <select id="gender" class="form-control form-control-sm">
+                <option>Choose your gender</option>
+                <option>Male</option>
+                <option>Female</option><br>
+            </select>
+        </div>  
+        <div class="row2">
+        <br>
+        <button type="button" class="btn btn-success btn-sm" value="submit" onclick="akanNames()">submit</button>
+        
+        </div>
+            <!-- Result output -->
+    
+            <p id="display" class="col-md-12"></p>
+            <div class="steps">
+                <h3>Steps to follow to Get Akan Name</h3>
+                <ol>
+                    <li>Choose the month of Birth</li>
+                    <li>Choose the date of Birth</li>
+                    <li>Choose the Year of Birth</li>
+                    <li>Choose your gender using the drop down</li>
+                    <li>hit the submit buton to see your Akan name</li>
+                </ol>
+            </div>
+     <div class="btn3">
+       <a href="index.html"> <button type="button">Akan Names</button></a>
+     </div>
+</form>
+
+</div>
+</div>
+
+<!-- begining of the footer -->
+<div class="footer-area-bottom">
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="contact text-center">
+                <i class="fa fa-phone" style="font-size:40px;"><p><strong>Contact-us:</strong> +25472833515</p></i> </div>
+              </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+                <p>
+                    &copy; Copyright <strong>@2022 </strong>. All Rights Reserved.</p>
+          
+        
+            </div> 
+        </div>
+
+    </div>
+</div>
+<script src="style.js"></script>
+</body>
+</html>
